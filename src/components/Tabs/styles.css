@@ -1,0 +1,16 @@
+.tabs {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width: 700px;
+  box-shadow: rgb(160, 17, 243, 0.1) 0px 0px 15px 1px,
+    rgb(196, 33, 229, 0.1) 0px 0px 15px 1px;
+}
+
+.biggerText {
+  font-size: xx-large;
+}
+
+.smallerText {
+  font-size: xx-small;
+}

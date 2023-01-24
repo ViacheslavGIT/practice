@@ -1,0 +1,18 @@
+input {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 80%;
+  height: 50px;
+  color: black;
+}
+
+.users_create {
+  padding: 20px 0;
+}
+
+.create_btn {
+  color: white;
+  background-color: black;
+}
