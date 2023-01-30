@@ -17,7 +17,7 @@ export const fetchUsers = createAsyncThunk(
       const response = await axios.get(API_BASE_URL + "users"); //
       return response.data;
     } catch (error) {
-      console.log(error);
+      console.error(error);
     }
   }
 );
@@ -32,7 +32,7 @@ export const createNewUser = createAsyncThunk(
       );
       return response.data; // it is an action.payload in addCase on fullfiled
     } catch (error) {
-      console.log(error);
+      console.error(error);
     }
   }
 );

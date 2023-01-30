@@ -1,8 +1,40 @@
 .auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 25px 0;
 }
-
+.requiredError {
+  display: flex;
+  width: 414px;
+  color: red;
+  font-size: 12px;
+}
 h2,
 span {
   color: black;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  height: 300px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#email {
+  width: 70%;
+}
+#password {
+  width: 70%;
+}
+.button-login {
+  width: 205px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: rgb(151, 194, 255);
+}
+.token-field {
+  width: 400px;
+  word-wrap: break-word;
 }

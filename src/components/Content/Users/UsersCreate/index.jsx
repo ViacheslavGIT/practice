@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { createNewUser } from "../../../../features/users/usersSlice";
 import CreatedUsers from "../CreatedUsers.js";
@@ -18,7 +17,6 @@ const UsersCreate = () => {
       })
     );
   };
-  // useEffect;
   return (
     <div className="users_create">
       <form action="#" onSubmit={handleCreate}>
