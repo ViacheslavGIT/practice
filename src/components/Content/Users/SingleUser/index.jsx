@@ -5,7 +5,6 @@ import "./styles.css";
 
 function SingleUser({ first, last, email, avatar }) {
   const context = useContext(ThemeContext);
-  console.log("context", context);
   return (
     <div className="single_user">
       <h2>

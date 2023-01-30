@@ -5,8 +5,6 @@ import { google, googleLogOut } from "../utils/auth";
 
 export const UserContext = createContext(null);
 
-console.log("userContext =", UserContext);
-
 export const UserContextProvider = ({ children }) => {
   const [userName, setUserName] = useState("");
   const [userPassword, setPassword] = useState(undefined);
